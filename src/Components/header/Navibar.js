@@ -7,17 +7,17 @@ export default function Navibar() {
       <header>
 
         <span>CARL HEINRICH ONG</span>
-
-        <ul class="nav-links">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Qualifications</a></li>
-        </ul>
         
         <div className="header-right">
-            <a href="#">Resume</a>
-        </div>
-
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Qualifications</a></li>
+                <li><a href="#">Techstack</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+        </div>        
       </header>
     </section>
     

@@ -1,7 +1,7 @@
 header {
     display:flex;
     justify-content: space-between;
-    padding:5% 5%;
+    padding:1% 5%;
 }
 
 .nav-links {
@@ -9,18 +9,26 @@ header {
 }
 
 .nav-links a {
-    color:var(--color-white);
+    color:var(--color-primary);
     text-decoration: none;
     padding-left:20px;
 }
 
-.header-right a {
-    text-decoration: none;
-    color:var(--color-white);
-    background: var(--color-primary);
-    padding:10px 20px;
-    border-radius: 20px;
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.header-right li {
+    padding-left:40px;
+     color: var(--color-primary)
+}
+
+span {
+    font-weight: 800;
+}
+
 
 
 
