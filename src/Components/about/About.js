@@ -3,12 +3,11 @@ import './about.css'
 
 export default function About() {
   return (
-    <section>
-      <div>
-      About
-      </div>
+
+    <div id="about" className="about-container">
+      <h1>About me</h1>
+    </div>
   
-    </section>
   )
     
 }

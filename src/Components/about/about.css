@@ -1,0 +1,8 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+    margin-top:10rem;
+    height:5000px;
+    padding-top:100px;
+    
+}
