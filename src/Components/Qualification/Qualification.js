@@ -3,7 +3,7 @@ import React from 'react'
 export default function Qualification() {
   return (
     <div>
-      Quali
+      Qualifications
     </div>
   )
 }

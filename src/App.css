@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;600;700;800&family=Inter:wght@100;400;500;600;700&display=swap');
 
+.cont {
+    display:flex;
+    padding-top:100px;
+}
+
 * {
-    margin:0;
-    padding:0;
     border:0;
     outline:0;
     box-sizing: border-box;

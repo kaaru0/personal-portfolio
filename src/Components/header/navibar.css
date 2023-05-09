@@ -14,14 +14,31 @@ header {
     box-shadow: 0px 1px 5px grey ;
 }
 
-.nav-links {
+.nav-links{
     display:flex;
+    justify-content: center;
 }
 
-.nav-links a {
-    color:var(--color-primary);
+li{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.inactive {
+    color: var(--color-primary);
     text-decoration: none;
-    padding-left:20px;
+    padding:5px 15px;
+    font-weight: 500;
+    
+}
+
+.active {
+    background-color: var(--color-primary);
+    color:var(--color-white);
+    text-decoration: none;
+    padding:5px 15px;
+    font-weight: 500;
+    
 }
 
 .header-right{
@@ -44,6 +61,9 @@ span {
     padding-left:10px;
 }
 
+.title-name{
+    color:var(--color-light)
+}
 
 
 
